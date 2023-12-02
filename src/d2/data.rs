@@ -61,12 +61,11 @@ impl Game {
     }
 
     pub fn is_possible(&self, red: u32, green: u32, blue: u32) -> bool {
-        let num_impossible = self
-            .sets
+        self.sets
             .iter()
             .filter(|s| !s.possible(red, green, blue))
-            .count();
-        return num_impossible == 0;
+            .count()
+            == 0
     }
 
     pub fn power(&self) -> u32 {
