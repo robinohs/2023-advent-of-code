@@ -1,0 +1,25 @@
+[package]
+name = "aoc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "d1-1"
+path = "src/d1/first.rs"
+
+[[bin]]
+name = "d1-2"
+path = "src/d1/second.rs"
+
+[[bin]]
+name = "d2-1"
+path = "src/d2/first.rs"
+
+[[bin]]
+name = "d2-2"
+path = "src/d2/second.rs"
+
+[dependencies]
+regex = "1.10.2"
