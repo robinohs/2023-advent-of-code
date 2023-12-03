@@ -15,14 +15,28 @@ dependencies = [
 name = "aoc"
 version = "0.1.0"
 dependencies = [
+ "hash",
+ "prev-iter",
  "regex",
 ]
+
+[[package]]
+name = "hash"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dd7c49bdb7afdaaa64b46da1b344452ff3f2e29a3e0efa09538c262f096de990"
 
 [[package]]
 name = "memchr"
 version = "2.6.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f665ee40bc4a3c5590afb1e9677db74a508659dfd71e126420da8274909a0167"
+
+[[package]]
+name = "prev-iter"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ceacb352f798299b2044f4b9a894e8ef5d21115ccd293a323d44fc665132ec83"
 
 [[package]]
 name = "regex"

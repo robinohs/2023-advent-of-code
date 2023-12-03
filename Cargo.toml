@@ -21,5 +21,15 @@ path = "src/d2/first.rs"
 name = "d2-2"
 path = "src/d2/second.rs"
 
+[[bin]]
+name = "d3-1"
+path = "src/d3/first.rs"
+
+[[bin]]
+name = "d3-2"
+path = "src/d3/second.rs"
+
 [dependencies]
+hash = "0.3.0"
+prev-iter = "0.1.2"
 regex = "1.10.2"
