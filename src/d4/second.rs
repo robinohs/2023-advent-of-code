@@ -11,7 +11,7 @@ use crate::data::Card;
 mod data;
 
 fn main() -> Result<(), Box<dyn Error>> {
-    println!("Hello from D4-1");
+    println!("Hello from D4-2");
     let cards = read_lines("d4-input.txt")?
         .map(|l| l.unwrap())
         .map(|f| Card::try_parse(&f).unwrap())
