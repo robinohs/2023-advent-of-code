@@ -29,6 +29,14 @@ path = "src/d3/first.rs"
 name = "d3-2"
 path = "src/d3/second.rs"
 
+[[bin]]
+name = "d4-1"
+path = "src/d4/first.rs"
+
+[[bin]]
+name = "d4-2"
+path = "src/d4/second.rs"
+
 [dependencies]
 hash = "0.3.0"
 prev-iter = "0.1.2"
